@@ -1,0 +1,844 @@
+﻿[2015.06.09-21.23.34:901][  0]Log file open, 06/09/15 17:23:34
+[2015.06.09-21.23.34:901][  0]LogInit:Display: Running engine for game: agdgRTS
+[2015.06.09-21.23.34:901][  0]LogInit:Display: RandInit(726902624) SRandInit(726902624).
+[2015.06.09-21.23.34:901][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.06.09-21.23.34:901][  0]LogStats: Stats thread started
+[2015.06.09-21.23.34:901][  0]LogInit: Version: 4.8.0-2564697+++depot+UE4-Releases+4.8
+[2015.06.09-21.23.34:901][  0]LogInit: API Version: 2564697
+[2015.06.09-21.23.34:901][  0]LogInit: Compiled (64-bit): May 26 2015 05:51:02
+[2015.06.09-21.23.34:901][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.06.09-21.23.34:901][  0]LogInit: Build Configuration: Development
+[2015.06.09-21.23.34:901][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.06.09-21.23.34:901][  0]LogInit: Command line: 
+[2015.06.09-21.23.34:901][  0]LogInit: Base directory: C:/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.06.09-21.23.34:912][  0]LogInit: Using libcurl 7.41.0
+[2015.06.09-21.23.34:912][  0]LogInit:  - built for x86_64-pc-win32
+[2015.06.09-21.23.34:912][  0]LogInit:  - supports SSL with WinSSL
+[2015.06.09-21.23.34:912][  0]LogInit:  - other features:
+[2015.06.09-21.23.34:912][  0]LogInit:      CURL_VERSION_SSL
+[2015.06.09-21.23.34:912][  0]LogInit:      CURL_VERSION_IPV6
+[2015.06.09-21.23.34:912][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.06.09-21.23.34:912][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.06.09-21.23.34:912][  0]LogInit:      CURL_VERSION_IDN
+[2015.06.09-21.23.34:912][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.06.09-21.23.34:912][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.06.09-21.23.34:912][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.06.09-21.23.34:912][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.06.09-21.23.34:912][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.06.09-21.23.34:922][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.09-21.23.34:934][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.09-21.23.34:942][  0]LogInit: Object subsystem initialized
+[2015.06.09-21.23.34:948][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.09-21.23.34:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.09-21.23.34:955][  0]LogInit: Computer: STARCHILD
+[2015.06.09-21.23.34:955][  0]LogInit: User: Pinworm
+[2015.06.09-21.23.34:955][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.09-21.23.34:955][  0]LogInit: High frequency timer resolution =3.419990 MHz
+[2015.06.09-21.23.34:956][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.06.09-21.23.34:956][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-21.23.34:956][  0]LogMemory: Process Physical Memory: 49.08 MB used, 49.08 MB peak
+[2015.06.09-21.23.34:956][  0]LogMemory: Process Virtual Memory: 23.50 MB used, 23.50 MB peak
+[2015.06.09-21.23.34:956][  0]LogMemory: Physical Memory: 3308.02 MB used, 8159.14 MB total
+[2015.06.09-21.23.34:956][  0]LogMemory: Virtual Memory: 285.20 MB used, 8388608.00 MB total
+[2015.06.09-21.23.34:987][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.09-21.23.35:188][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.06.09-21.23.35:620][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.06.09-21.23.35:620][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.06.09-21.23.35:620][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.09-21.23.35:623][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.09-21.23.35:629][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.09-21.23.35:972][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.06.09-21.23.36:693][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.06.09-21.23.36:706][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.06.09-21.23.36:718][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.06.09-21.23.36:730][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.06.09-21.23.36:745][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.06.09-21.23.36:756][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.06.09-21.23.36:767][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.06.09-21.23.36:778][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.06.09-21.23.36:789][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.06.09-21.23.36:800][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.06.09-21.23.36:811][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.06.09-21.23.36:822][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.06.09-21.23.36:865][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.06.09-21.23.36:875][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.06.09-21.23.36:886][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.06.09-21.23.36:899][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.06.09-21.23.36:899][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.09-21.23.37:081][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.09-21.23.37:124][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/Pinworm/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.09-21.23.37:124][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pinworm/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.06.09-21.23.37:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.09-21.23.37:124][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.09-21.23.37:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.06.09-21.23.37:124][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.06.09-21.23.37:268][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.09-21.23.37:279][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pinworm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.09-21.23.37:491][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.09-21.23.37:498][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.09-21.23.37:498][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.09-21.23.37:523][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.09-21.23.37:523][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.09-21.23.37:896][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.09-21.23.38:854][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.09-21.23.39:168][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.23.39:174][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.23.39:183][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.23.39:191][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.23.39:399][  0]LogObj: 26271 objects as part of root set at end of initial load.
+[2015.06.09-21.23.39:399][  0]LogUObjectAllocator: 5408960 out of 0 bytes used by permanent object pool.
+[2015.06.09-21.23.39:464][  0]LogEngine: Initializing Engine...
+[2015.06.09-21.23.39:466][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.06.09-21.23.39:473][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.06.09-21.23.39:616][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.09-21.23.39:621][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.09-21.23.39:630][  0]LogInit: FAudioDevice initialized.
+[2015.06.09-21.23.39:657][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Pinworm/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.09-21.23.39:662][  0]LogInit: Texture streaming: Disabled
+[2015.06.09-21.23.39:682][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.09-21.23.39:682][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.0-2564697+++depot+UE4-Releases+4.8
+[2015.06.09-21.23.39:682][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 31a4a93045bb1ac213dc6495cd637d59|14064862923c47cd8cee706e684909dd|ae643741-eb3e-4306-9ec4-7c058d9a96c6
+[2015.06.09-21.23.39:682][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.06.09-21.23.39:704][  0]LogInit: Transaction tracking system initialized
+[2015.06.09-21.23.39:811][  0]BlueprintLog: New page: Editor Load
+[2015.06.09-21.23.39:841][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.06.09-21.23.39:841][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.09-21.23.40:971][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.06.09-21.23.40:971][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.06.09-21.23.40:971][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.06.09-21.23.40:971][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2015.06.09-21.23.41:024][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.06.09-21.23.41:025][  0]LogConsoleResponse:Display: 
+[2015.06.09-21.23.41:116][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.09-21.23.41:280][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.23.41:280][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.09-21.23.41:281][  0]LightingResults: New page: Lighting Build
+[2015.06.09-21.23.41:292][  0]MapCheck: New page: Map Check
+[2015.06.09-21.23.41:292][  0]LightingResults: New page: Lighting Build
+[2015.06.09-21.23.41:299][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C710B80
+[2015.06.09-21.23.41:686][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.06.09-21.23.41:691][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.09-21.23.41:698][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.06.09-21.23.41:728][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.643ms to complete.
+[2015.06.09-21.23.41:728][  0]LogFileHelpers: Loading map 'Template_Default' took 0.448
+[2015.06.09-21.23.41:873][  0]LogCollectionManager: Loaded 0 collections in 0.001768 seconds
+[2015.06.09-21.23.41:881][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1792 classes and 301 folders.
+[2015.06.09-21.23.41:941][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.06.09-21.23.42:057][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.06.09-21.23.42:078][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.06.09-21.23.42:257][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.09-21.23.42:266][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.09-21.23.42:293][  0]LogLoad: Full Startup: 8.90 seconds (BP compile: 0.12 seconds)
+[2015.06.09-21.23.42:393][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.09-21.23.42:417][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.06.09-21.23.42:602][  0]LogRenderer: Reallocating scene render targets to support 1016x584 (Frame:2).
+[2015.06.09-21.23.42:846][  5]LogAssetRegistry: Asset discovery search completed in 3.0154 seconds
+[2015.06.09-21.25.50:701][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.25.50:764][805]LogSavePackage: Save=19.129004ms
+[2015.06.09-21.25.50:764][805]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenu648AD1CC46DE9ED20B6E6785F59B9B02.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap'
+[2015.06.09-21.25.50:789][805]LogFileHelpers: Saving map 'MainMenu' took 0.390
+[2015.06.09-21.26.52:406][212]LogBlueprint:Warning: [compiler RTSCam] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.06.09-21.26.52:406][212]LogBlueprint:Warning: [compiler RTSCam] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.06.09-21.26.52:423][212]LogBlueprint:Warning: [compiler RTSCam] Warning [0199.03] Compile of RTSCam successful, but with 2 Warning(s) [in 84 ms]
+[2015.06.09-21.26.52:424][212]LogBlueprint:Warning: [compiler RTSCam] Warning [0199.03] Compile of RTSCam successful, but with 3 Warning(s) [in 0 ms]
+[2015.06.09-21.26.52:424][212]LogBlueprint:Warning: [compiler RTSCam] Warning [0199.03] Compile of RTSCam successful, but with 4 Warning(s) [in 0 ms]
+[2015.06.09-21.26.52:709][212]LogBlueprint:Warning: [compiler RTSCam] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.06.09-21.26.52:709][212]LogBlueprint:Warning: [compiler RTSCam] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.06.09-21.26.52:727][212]LogBlueprint:Warning: [compiler RTSCam] Warning [0199.33] Compile of RTSCam successful, but with 2 Warning(s) [in 86 ms]
+[2015.06.09-21.26.52:728][212]LogBlueprint:Warning: [compiler RTSCam] Warning [0199.33] Compile of RTSCam successful, but with 3 Warning(s) [in 0 ms]
+[2015.06.09-21.26.54:851][440]Cmd: DELETE
+[2015.06.09-21.26.54:851][440]Cmd: ACTOR DELETE
+[2015.06.09-21.26.54:853][440]LogEditorActor: Deleted Actor: RTSCam_C
+[2015.06.09-21.26.55:013][440]LogEditorActor: Deleted 1 Actors (0.160 secs)
+[2015.06.09-21.26.58:348][823]Cmd: UpdateLandscapeSetup
+[2015.06.09-21.27.01:450][171]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2015.06.09-21.27.01:458][172]Cmd: UpdateLandscapeSetup
+[2015.06.09-21.27.23:960][676]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.09-21.27.23:961][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.23:965][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:006][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:053][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/M_RenderCustomHeightmap_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:057][676]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/TransformToZVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:058][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/MPC_R2T.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:058][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:061][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/M_RenderNormalizedDepth_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:062][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/BoundingSphere_LightTransform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:074][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/M_TilingPreviewMat_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:074][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Textures/TilingTexturePreview.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:076][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0'
+[2015.06.09-21.27.24:076][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP.uasset.
+[2015.06.09-21.27.24:076][676]LoadErrors:Error: Error /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP : Can't find file for asset. /Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0
+[2015.06.09-21.27.24:077][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_FlipbookPreview_01_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:077][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_FlipbookPreview_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:083][676]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook_MotionVectors.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:099][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_RenderMotionVectors_Applied.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:099][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_RenderMotionVectors_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:100][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_RenderMotionVectors.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:101][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/DiffMotionVectors.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:103][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:107][676]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook_UniformNonUniform.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:117][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/M_ImposterTest_01_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:117][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Materials/M_ImposterTest_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:118][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/FoliageZRotation.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:134][676]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/FoliageScaleFactor.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:139][676]LogLinker:Warning: Can't find file '/Engine/BufferVisualization/MPC_Buffers'
+[2015.06.09-21.27.24:140][676]LogLinker:Warning: Can't find file for asset '/Engine/BufferVisualization/MPC_Buffers' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP.uasset.
+[2015.06.09-21.27.24:140][676]LoadErrors:Error: Error /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP : Can't find file for asset. /Engine/BufferVisualization/MPC_Buffers
+[2015.06.09-21.27.24:140][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/PhysMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:141][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:142][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0'
+[2015.06.09-21.27.24:142][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP.uasset.
+[2015.06.09-21.27.24:147][676]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Sphere.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.27.24:148][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2'
+[2015.06.09-21.27.24:148][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP.uasset.
+[2015.06.09-21.27.24:149][676]LoadErrors:Error: Error /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP : Can't find file for asset. /Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2
+[2015.06.09-21.27.24:149][676]LogLinker:Warning: Can't find file '/Engine/BufferVisualization/MPC_Buffers'
+[2015.06.09-21.27.24:149][676]LogLinker:Warning: Can't find file for asset '/Engine/BufferVisualization/MPC_Buffers' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP.uasset.
+[2015.06.09-21.27.24:150][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2'
+[2015.06.09-21.27.24:151][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_LevelBP.uasset.
+[2015.06.09-21.27.24:167][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0'
+[2015.06.09-21.27.24:167][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:167][676]LoadErrors:Error: Error /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn : Can't find file for asset. /Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0
+[2015.06.09-21.27.24:167][676]LogLinker:Warning: Can't find file '/Engine/BufferVisualization/MPC_Buffers'
+[2015.06.09-21.27.24:168][676]LogLinker:Warning: Can't find file for asset '/Engine/BufferVisualization/MPC_Buffers' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:168][676]LoadErrors:Error: Error /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn : Can't find file for asset. /Engine/BufferVisualization/MPC_Buffers
+[2015.06.09-21.27.24:168][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0'
+[2015.06.09-21.27.24:168][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:168][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2'
+[2015.06.09-21.27.24:168][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:168][676]LoadErrors:Error: Error /Engine/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn : Can't find file for asset. /Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2
+[2015.06.09-21.27.24:168][676]LogLinker:Warning: Can't find file '/Engine/BufferVisualization/MPC_Buffers'
+[2015.06.09-21.27.24:168][676]LogLinker:Warning: Can't find file for asset '/Engine/BufferVisualization/MPC_Buffers' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:168][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2'
+[2015.06.09-21.27.24:169][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:182][676]LogLinker:Warning: Can't find file '/Engine/BufferVisualization/MPC_Buffers'
+[2015.06.09-21.27.24:182][676]LoadErrors: Info Failed to load /Engine/BufferVisualization/MPC_Buffers.MPC_Buffers Referenced by EdGraphPin_17768
+[2015.06.09-21.27.24:183][676]LogLinker:Warning: Can't find file for asset '/Engine/BufferVisualization/MPC_Buffers' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:262][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0'
+[2015.06.09-21.27.24:262][676]LoadErrors: Info Failed to load /Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0.M_Emissive_Color_127-127-0 Referenced by EdGraphPin_17858
+[2015.06.09-21.27.24:262][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:264][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0'
+[2015.06.09-21.27.24:264][676]LoadErrors: Info Failed to load /Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0.M_Emissive_Color_127-127-0 Referenced by EdGraphPin_6361
+[2015.06.09-21.27.24:264][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color_127-127-0' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.24:526][676]LogLinker:Warning: Can't find file '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2'
+[2015.06.09-21.27.24:526][676]LoadErrors: Info Failed to load /Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2.Position2 Referenced by SceneCaptureComponent2DE25661B74EE250A3958D54B03E193461
+[2015.06.09-21.27.24:526][676]LogLinker:Warning: Can't find file for asset '/Engine/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position2' while loading ../../../Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Pawn.uasset.
+[2015.06.09-21.27.25:186][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:208][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:208][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:222][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:222][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:326][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning [0231.93] Compile of RenderToTexture_LevelBP successful, but with 5 Warning(s) [in 317 ms]
+[2015.06.09-21.27.25:327][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning [0231.93] Compile of RenderToTexture_LevelBP successful, but with 6 Warning(s) [in 0 ms]
+[2015.06.09-21.27.25:327][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning [0231.93] Compile of RenderToTexture_LevelBP successful, but with 7 Warning(s) [in 0 ms]
+[2015.06.09-21.27.25:775][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:798][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:798][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:812][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:812][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning  Set Text (String)  is deprecated; Use the SetText function taking an FText instead.
+[2015.06.09-21.27.25:918][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning [0232.52] Compile of RenderToTexture_LevelBP successful, but with 5 Warning(s) [in 311 ms]
+[2015.06.09-21.27.25:919][676]LogBlueprint:Warning: [compiler RenderToTexture_LevelBP] Warning [0232.52] Compile of RenderToTexture_LevelBP successful, but with 6 Warning(s) [in 0 ms]
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator1 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator7 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:024][676]LogEnum:Warning: Enum Text NewEnumerator11 for Enum RenderToTexture_Enum failed to resolve to any value
+[2015.06.09-21.27.26:653][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.09-21.27.26:696][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.09-21.27.26:710][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.09-21.27.26:730][677]Cmd: UpdateLandscapeSetup
+[2015.06.09-21.27.27:621][778]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.09-21.27.28:369][850]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.09-21.27.28:415][851]Cmd: UpdateLandscapeSetup
+[2015.06.09-21.27.30:142][ 56]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.09-21.27.32:568][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.27.32:718][328]LogSavePackage: Save=16.895664ms
+[2015.06.09-21.27.32:718][328]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenuDEA34C63439F935E74429FB9B597C419.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap'
+[2015.06.09-21.27.33:228][386]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.09-21.27.33:250][386]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 1:27:33 PM)
+[2015.06.09-21.27.33:250][386]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2015.06.09-21.27.33:252][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001446s)
+[2015.06.09-21.27.33:253][386]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-21.27.33:253][386]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2015.06.09-21.27.33:253][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002972s)
+[2015.06.09-21.27.33:281][386]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.09-21.27.33:288][386]LogInit: FAudioDevice initialized.
+[2015.06.09-21.27.33:337][386]LogWorld: Game class is 'RTSGameMode_C'
+[2015.06.09-21.27.33:344][386]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-17.27.33
+[2015.06.09-21.27.33:345][386]LogActor:Warning: GameSession /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.09-21.27.33:345][386]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.09-21.27.33:345][386]LogWorld: Bringing up level for play took: 0.002099
+[2015.06.09-21.27.33:353][386]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu -0.231
+[2015.06.09-21.27.51:750][571]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E0EE7A0
+[2015.06.09-21.27.58:428][110]BlueprintLog: New page: Compile RTSCam
+[2015.06.09-21.27.58:529][110]LogBlueprint:Warning: [compiler RTSCam] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.06.09-21.27.58:529][110]LogBlueprint:Warning: [compiler RTSCam] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.06.09-21.27.58:977][110]LogBlueprint:Warning: [compiler RTSCam] Warning [0265.58] Compile of RTSCam successful, but with 2 Warning(s) [in 548 ms]
+[2015.06.09-21.27.58:977][110]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.06.09-21.27.58:977][110]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.06.09-21.27.58:977][110]BlueprintEditorCompileResults:Warning: Warning [0265.58] Compile of RTSCam successful, but with 2 Warning(s) [in 548 ms]
+[2015.06.09-21.29.09:505][304]BlueprintLog: New page: Compile RTSCam
+[2015.06.09-21.29.10:031][304]BlueprintEditorCompileResults: Info [0336.63] Compile of RTSCam successful! [in 525 ms]
+[2015.06.09-21.29.10:578][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Blueprints/RTSCam" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Blueprints/RTSCam.uasset" SILENT=true
+[2015.06.09-21.29.10:826][357]LogSavePackage: Save=242.407730ms
+[2015.06.09-21.29.10:826][357]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSCam2CE7413E404486FFE2B085B47B1E2332.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Blueprints/RTSCam.uasset'
+[2015.06.09-21.29.12:434][545]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.09-21.29.12:435][545]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 1:29:12 PM)
+[2015.06.09-21.29.12:435][545]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2015.06.09-21.29.12:437][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001704s)
+[2015.06.09-21.29.12:437][545]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-21.29.12:438][545]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2015.06.09-21.29.12:438][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002982s)
+[2015.06.09-21.29.12:477][545]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.09-21.29.12:484][545]LogInit: FAudioDevice initialized.
+[2015.06.09-21.29.12:529][545]LogWorld: Game class is 'RTSGameMode_C'
+[2015.06.09-21.29.12:532][545]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-17.29.12
+[2015.06.09-21.29.12:532][545]LogActor:Warning: GameSession /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.09-21.29.12:533][545]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.09-21.29.12:533][545]LogWorld: Bringing up level for play took: 0.001929
+[2015.06.09-21.29.12:576][545]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu 0.99
+[2015.06.09-21.29.12:593][545]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:6716).
+[2015.06.09-21.29.23:765][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000300544A0
+[2015.06.09-21.29.26:029][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.09-21.29.32:680][864]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.06.09-21.29.33:081][910]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.06.09-21.29.37:228][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.29.37:276][387]LogSavePackage: Save=13.579572ms
+[2015.06.09-21.29.37:276][387]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenu225B49664D356758A749F9A69B5F7B67.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap'
+[2015.06.09-21.29.38:315][506]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.09-21.29.38:315][506]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 1:29:38 PM)
+[2015.06.09-21.29.38:316][506]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2015.06.09-21.29.38:317][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001514s)
+[2015.06.09-21.29.38:318][506]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-21.29.38:318][506]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2015.06.09-21.29.38:318][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002574s)
+[2015.06.09-21.29.38:353][506]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.09-21.29.38:360][506]LogInit: FAudioDevice initialized.
+[2015.06.09-21.29.38:394][506]LogWorld: Game class is 'RTSGameMode_C'
+[2015.06.09-21.29.38:397][506]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-17.29.38
+[2015.06.09-21.29.38:397][506]LogActor:Warning: GameSession /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.09-21.29.38:397][506]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.09-21.29.38:397][506]LogWorld: Bringing up level for play took: 0.001684
+[2015.06.09-21.29.38:400][506]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu 0.814
+[2015.06.09-21.29.42:137][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D7A3E20
+[2015.06.09-21.29.47:950][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.29.47:989][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015ED2160
+[2015.06.09-21.29.48:003][621]LogSavePackage: Save=13.093606ms
+[2015.06.09-21.29.48:003][621]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenu1B5D6BF14D1FCBDC84F839B6691ED841.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap'
+[2015.06.09-21.29.48:549][684]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.06.09-21.30.04:599][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Meshs/Shape_Sphere" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Meshs/Shape_Sphere.uasset" SILENT=true
+[2015.06.09-21.30.04:612][401]LogSavePackage: Save=11.608221ms
+[2015.06.09-21.30.04:612][401]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Shape_Sphere4A250AFC47B96E385C1C1E8E00D50D05.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Meshs/Shape_Sphere.uasset'
+[2015.06.09-21.30.04:800][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Blueprints/RTSCam" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Blueprints/RTSCam.uasset" SILENT=true
+[2015.06.09-21.30.05:039][401]LogSavePackage: Save=237.753326ms
+[2015.06.09-21.30.05:039][401]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSCam2EB29B2B41844191485078B1A41B5D77.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Blueprints/RTSCam.uasset'
+[2015.06.09-21.30.11:437][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_GlassRed" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_GlassRed.uasset" SILENT=true
+[2015.06.09-21.30.11:451][959]LogSavePackage: Save=12.582786ms
+[2015.06.09-21.30.11:451][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/M_GlassRed367CC03A4D1E46F1550D72A26D4B78EF.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_GlassRed.uasset'
+[2015.06.09-21.30.11:473][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Glass" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Glass.uasset" SILENT=true
+[2015.06.09-21.30.11:487][959]LogSavePackage: Save=12.126643ms
+[2015.06.09-21.30.11:487][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/M_Glass087785C04728753806DD34AA0745AA5F.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Glass.uasset'
+[2015.06.09-21.30.11:511][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Basic_Wall" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Basic_Wall.uasset" SILENT=true
+[2015.06.09-21.30.11:526][959]LogSavePackage: Save=11.100033ms
+[2015.06.09-21.30.11:527][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/M_Basic_Wall4312B56C4231CEF8A9F5B1A663C0DC9F.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Basic_Wall.uasset'
+[2015.06.09-21.30.11:898][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/Ghostbarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset" SILENT=true
+[2015.06.09-21.30.11:935][959]LogSavePackage: Save=31.247459ms
+[2015.06.09-21.30.11:935][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Ghostbarracks61C4056D496ED80B64B0E6A6A78008FD.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset'
+[2015.06.09-21.30.11:958][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset" SILENT=true
+[2015.06.09-21.30.11:994][959]LogSavePackage: Save=31.750093ms
+[2015.06.09-21.30.11:994][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostBlacksmith54131D7B496CFF6BD0CED5B541FC3073.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset'
+[2015.06.09-21.30.12:015][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset" SILENT=true
+[2015.06.09-21.30.12:051][959]LogSavePackage: Save=31.081085ms
+[2015.06.09-21.30.12:051][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostHouse382858E54FF716AFF2F72BB15242C873.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset'
+[2015.06.09-21.30.12:075][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostLumberYard" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset" SILENT=true
+[2015.06.09-21.30.12:111][959]LogSavePackage: Save=32.015884ms
+[2015.06.09-21.30.12:111][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostLumberYardBB6761C2447C5575D6579395FAD9053E.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset'
+[2015.06.09-21.30.12:123][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/Ghostbarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset" SILENT=true
+[2015.06.09-21.30.12:148][959]LogSavePackage: Save=23.649193ms
+[2015.06.09-21.30.12:148][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostbarracksEC07F8D24F59495AF24FD6B9CED8D603.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset'
+[2015.06.09-21.30.12:156][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset" SILENT=true
+[2015.06.09-21.30.12:181][959]LogSavePackage: Save=23.335741ms
+[2015.06.09-21.30.12:181][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostBlacksmithABEC332B43FA4BCA57A219A690E8746F.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset'
+[2015.06.09-21.30.12:188][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset" SILENT=true
+[2015.06.09-21.30.12:213][959]LogSavePackage: Save=23.097437ms
+[2015.06.09-21.30.12:213][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostHouse117C720949344DC08D6C4182CF7B6EAC.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset'
+[2015.06.09-21.30.12:221][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostLumberYard" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset" SILENT=true
+[2015.06.09-21.30.12:247][959]LogSavePackage: Save=23.715567ms
+[2015.06.09-21.30.12:247][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostLumberYardF2E568F7404E60B52C8D3CA814B5288B.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset'
+[2015.06.09-21.30.12:255][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Meshs/Shape_Sphere" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Meshs/Shape_Sphere.uasset" SILENT=true
+[2015.06.09-21.30.12:264][959]LogSavePackage: Save=4.254106ms
+[2015.06.09-21.30.12:264][959]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Shape_Sphere8552990343E7385FA6F8CF8692979403.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Meshs/Shape_Sphere.uasset'
+[2015.06.09-21.30.22:607][996]LogMetaData: Removing '/Game/Blueprints/RTSCam.RTSCam_C' ref from Metadata '/Game/1/Blueprints/RTSCam.PackageMetaData'
+[2015.06.09-21.30.22:607][996]LogMetaData: Removing '/Game/Blueprints/RTSCam.RTSCam:UserConstructionScript.K2Node_FunctionEntry_158' ref from Metadata '/Game/1/Blueprints/RTSCam.PackageMetaData'
+[2015.06.09-21.30.22:607][996]LogMetaData: Removing '/Game/Blueprints/RTSCam.RTSCam:EventGraph.K2Node_Event_146' ref from Metadata '/Game/1/Blueprints/RTSCam.PackageMetaData'
+[2015.06.09-21.30.22:607][996]LogMetaData: Removing '/Game/Blueprints/RTSCam.RTSCam:EventGraph.K2Node_Event_147' ref from Metadata '/Game/1/Blueprints/RTSCam.PackageMetaData'
+[2015.06.09-21.30.22:607][996]LogMetaData: Removing '/Game/Blueprints/RTSCam.RTSCam:Update Eco UI.K2Node_FunctionEntry_1238' ref from Metadata '/Game/1/Blueprints/RTSCam.PackageMetaData'
+[2015.06.09-21.30.22:607][996]LogMetaData: Removing '/Game/Blueprints/RTSCam.RTSCam:Spawn UI.K2Node_FunctionEntry_2125' ref from Metadata '/Game/1/Blueprints/RTSCam.PackageMetaData'
+[2015.06.09-21.30.22:607][996]LogMetaData: Removing '/Game/Blueprints/RTSCam.RTSCam:MainMenu.K2Node_FunctionEntry_7613' ref from Metadata '/Game/1/Blueprints/RTSCam.PackageMetaData'
+[2015.06.09-21.30.22:607][996]LogMetaData: Removing '/Game/Blueprints/RTSCam.SKEL_RTSCam_C' ref from Metadata '/Game/1/Blueprints/RTSCam.PackageMetaData'
+[2015.06.09-21.30.22:711][996]LogMetaData: Removing '/Game/Blueprints/RTSGameMode.RTSGameMode:UserConstructionScript.K2Node_FunctionEntry_1694' ref from Metadata '/Game/1/Blueprints/RTSGameMode.PackageMetaData'
+[2015.06.09-21.30.22:711][996]LogMetaData: Removing '/Game/Blueprints/RTSGameMode.RTSGameMode:EventGraph.K2Node_Event_716' ref from Metadata '/Game/1/Blueprints/RTSGameMode.PackageMetaData'
+[2015.06.09-21.30.22:711][996]LogMetaData: Removing '/Game/Blueprints/RTSGameMode.RTSGameMode_C' ref from Metadata '/Game/1/Blueprints/RTSGameMode.PackageMetaData'
+[2015.06.09-21.30.22:711][996]LogMetaData: Removing '/Game/Blueprints/RTSGameMode.RTSGameMode:EventGraph.K2Node_Event_715' ref from Metadata '/Game/1/Blueprints/RTSGameMode.PackageMetaData'
+[2015.06.09-21.30.22:711][996]LogMetaData: Removing '/Game/Blueprints/RTSGameMode.SKEL_RTSGameMode_C' ref from Metadata '/Game/1/Blueprints/RTSGameMode.PackageMetaData'
+[2015.06.09-21.30.22:785][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RTSCam" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset" SILENT=true
+[2015.06.09-21.30.23:075][996]LogSavePackage: Save=287.526855ms
+[2015.06.09-21.30.23:075][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSCam28BC628B4CD146FDCEFD65908E7142ED.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset'
+[2015.06.09-21.30.23:083][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RTSGameMode" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSGameMode.uasset" SILENT=true
+[2015.06.09-21.30.23:095][996]LogSavePackage: Save=10.409095ms
+[2015.06.09-21.30.23:095][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSGameMode76CD90C84B4A7959306C4E89951428D6.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSGameMode.uasset'
+[2015.06.09-21.30.23:104][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Blueprints/RTSGameMode" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Blueprints/RTSGameMode.uasset" SILENT=true
+[2015.06.09-21.30.23:114][996]LogSavePackage: Save=5.883643ms
+[2015.06.09-21.30.23:114][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSGameMode7153AF544C91DE7C786ADA802A72E413.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Blueprints/RTSGameMode.uasset'
+[2015.06.09-21.30.23:321][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.30.23:395][996]LogSavePackage: Save=69.263657ms
+[2015.06.09-21.30.23:395][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUD1C43E35E49BDC812393A07A90B742965.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/HUD/CommanderHUD.uasset'
+[2015.06.09-21.30.23:419][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/ActualHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualHouse.uasset" SILENT=true
+[2015.06.09-21.30.23:453][996]LogSavePackage: Save=28.751839ms
+[2015.06.09-21.30.23:453][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualHouseBDF094294D541D805B5F19882F221673.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualHouse.uasset'
+[2015.06.09-21.30.23:461][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/Ghostbarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset" SILENT=true
+[2015.06.09-21.30.23:487][996]LogSavePackage: Save=23.895977ms
+[2015.06.09-21.30.23:487][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Ghostbarracks30075D0E49C580A8770425A4FAA28CBD.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset'
+[2015.06.09-21.30.23:496][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset" SILENT=true
+[2015.06.09-21.30.23:522][996]LogSavePackage: Save=23.520536ms
+[2015.06.09-21.30.23:522][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostBlacksmithE6B208904A190E162EC00A9E03800246.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset'
+[2015.06.09-21.30.23:530][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset" SILENT=true
+[2015.06.09-21.30.23:555][996]LogSavePackage: Save=23.044220ms
+[2015.06.09-21.30.23:556][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostHouseA809A6894CFC2F5B53808CB380DDCA54.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset'
+[2015.06.09-21.30.23:564][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostLumberYard" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset" SILENT=true
+[2015.06.09-21.30.23:590][996]LogSavePackage: Save=23.720829ms
+[2015.06.09-21.30.23:590][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostLumberYard5B1FC1944BAA7FA99DAB2A99ACEC5190.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset'
+[2015.06.09-21.30.23:601][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/HUD/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/HUD/MainMenu.uasset" SILENT=true
+[2015.06.09-21.30.23:647][996]LogSavePackage: Save=41.212109ms
+[2015.06.09-21.30.23:647][996]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenuAAA136D4443AE83313867A8D38BD3E4A.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/HUD/MainMenu.uasset'
+[2015.06.09-21.30.37:104][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.09-21.30.39:854][280]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.09-21.30.40:722][372]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2015.06.09-21.30.40:730][373]Cmd: UpdateLandscapeSetup
+[2015.06.09-21.30.41:779][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.09-21.30.59:770][783]Cmd: UpdateLandscapeSetup
+[2015.06.09-21.31.01:226][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.31.01:269][950]LogSavePackage: Save=13.309396ms
+[2015.06.09-21.31.01:269][950]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenu3B837BDA4F347484DF4764829298D78E.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap'
+[2015.06.09-21.31.01:907][ 14]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.09-21.31.01:907][ 14]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 1:31:01 PM)
+[2015.06.09-21.31.01:907][ 14]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2015.06.09-21.31.01:909][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001394s)
+[2015.06.09-21.31.01:909][ 14]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-21.31.01:910][ 14]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2015.06.09-21.31.01:910][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002606s)
+[2015.06.09-21.31.01:941][ 14]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.09-21.31.01:949][ 14]LogInit: FAudioDevice initialized.
+[2015.06.09-21.31.01:982][ 14]LogWorld: Game class is 'RTSGameMode_C'
+[2015.06.09-21.31.01:985][ 14]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-17.31.01
+[2015.06.09-21.31.01:985][ 14]LogActor:Warning: GameSession /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.09-21.31.01:985][ 14]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.09-21.31.01:985][ 14]LogWorld: Bringing up level for play took: 0.001649
+[2015.06.09-21.31.01:988][ 14]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu 0.4
+[2015.06.09-21.31.07:788][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017ED7920
+[2015.06.09-21.31.42:297][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/MeshActualLY" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualLY.uasset" SILENT=true
+[2015.06.09-21.31.42:311][614]LogSavePackage: Save=12.006468ms
+[2015.06.09-21.31.42:311][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MeshActualLYBE8855BA452D43AECDC84F9A6020EF46.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualLY.uasset'
+[2015.06.09-21.31.42:333][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/MeshActualHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualHouse.uasset" SILENT=true
+[2015.06.09-21.31.42:348][614]LogSavePackage: Save=11.927228ms
+[2015.06.09-21.31.42:348][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MeshActualHouse5F9EC5CD41B9E7D2BA591F92C6A0C722.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualHouse.uasset'
+[2015.06.09-21.31.42:371][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/MeshBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshBlacksmith.uasset" SILENT=true
+[2015.06.09-21.31.42:385][614]LogSavePackage: Save=12.095650ms
+[2015.06.09-21.31.42:385][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MeshBlacksmith5DBF03E34B9D101D52DF6894BD2A5F5D.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshBlacksmith.uasset'
+[2015.06.09-21.31.42:407][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/MeshActualBarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualBarracks.uasset" SILENT=true
+[2015.06.09-21.31.42:421][614]LogSavePackage: Save=12.008807ms
+[2015.06.09-21.31.42:421][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MeshActualBarracks3CFF20A541F1A95ACE344DB87C0B3616.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualBarracks.uasset'
+[2015.06.09-21.31.42:444][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/Shape_Sphere" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/Shape_Sphere.uasset" SILENT=true
+[2015.06.09-21.31.42:456][614]LogSavePackage: Save=10.812020ms
+[2015.06.09-21.31.42:456][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Shape_SphereF80E46F343B80604DEAF08AD646A4BC4.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/Shape_Sphere.uasset'
+[2015.06.09-21.31.43:023][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/ActualLumberYard" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualLumberYard.uasset" SILENT=true
+[2015.06.09-21.31.43:051][614]LogSavePackage: Save=22.088661ms
+[2015.06.09-21.31.43:051][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualLumberYardEAB4572A4D5B6FBC16A0D0B42F500BE8.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualLumberYard.uasset'
+[2015.06.09-21.31.43:059][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostLumberYard" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset" SILENT=true
+[2015.06.09-21.31.43:085][614]LogSavePackage: Save=23.326092ms
+[2015.06.09-21.31.43:085][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostLumberYard2EC35684404B35028FB4D3A7A302F130.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset'
+[2015.06.09-21.31.43:093][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/ActualHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualHouse.uasset" SILENT=true
+[2015.06.09-21.31.43:115][614]LogSavePackage: Save=19.034559ms
+[2015.06.09-21.31.43:115][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualHouse5F4B3B1740C57E1A724850A70576B76E.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualHouse.uasset'
+[2015.06.09-21.31.43:124][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset" SILENT=true
+[2015.06.09-21.31.43:149][614]LogSavePackage: Save=23.352116ms
+[2015.06.09-21.31.43:149][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostHouse9CA352A84B498E714205B3822B00260F.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset'
+[2015.06.09-21.31.43:172][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/ActualBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualBlacksmith.uasset" SILENT=true
+[2015.06.09-21.31.43:199][614]LogSavePackage: Save=22.228428ms
+[2015.06.09-21.31.43:199][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualBlacksmithE126C8AD486EDEB5D6CE16A4DFE647B8.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualBlacksmith.uasset'
+[2015.06.09-21.31.43:207][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset" SILENT=true
+[2015.06.09-21.31.43:233][614]LogSavePackage: Save=23.292465ms
+[2015.06.09-21.31.43:233][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostBlacksmithBE0FFB1F4F102739683ACFBEDE56EE0F.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset'
+[2015.06.09-21.31.43:258][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/ActualBarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualBarracks.uasset" SILENT=true
+[2015.06.09-21.31.43:284][614]LogSavePackage: Save=21.181057ms
+[2015.06.09-21.31.43:284][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualBarracks21B5274648162C24526A438038DD8DD7.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualBarracks.uasset'
+[2015.06.09-21.31.43:292][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/Ghostbarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset" SILENT=true
+[2015.06.09-21.31.43:318][614]LogSavePackage: Save=23.061764ms
+[2015.06.09-21.31.43:318][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Ghostbarracks5354EA5640C015FF1A5CFB93DDA55F5E.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset'
+[2015.06.09-21.31.43:326][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RTSCam" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset" SILENT=true
+[2015.06.09-21.31.43:566][614]LogSavePackage: Save=237.102737ms
+[2015.06.09-21.31.43:566][614]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSCamCC974FD9499BDE803EB065BA2B6C2D75.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset'
+[2015.06.09-21.31.49:765][216]LogMetaData: Removing '/Game/HUD/MainMenu.MainMenu_C' ref from Metadata '/Game/1/HUD/MainMenu.PackageMetaData'
+[2015.06.09-21.31.49:766][216]LogMetaData: Removing '/Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_Event_984' ref from Metadata '/Game/1/HUD/MainMenu.PackageMetaData'
+[2015.06.09-21.31.49:766][216]LogMetaData: Removing '/Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_Event_985' ref from Metadata '/Game/1/HUD/MainMenu.PackageMetaData'
+[2015.06.09-21.31.49:766][216]LogMetaData: Removing '/Game/HUD/MainMenu.MainMenu:GetText_0.K2Node_FunctionResult_0' ref from Metadata '/Game/1/HUD/MainMenu.PackageMetaData'
+[2015.06.09-21.31.49:766][216]LogMetaData: Removing '/Game/HUD/MainMenu.MainMenu:GetText_0.K2Node_FunctionEntry_3067' ref from Metadata '/Game/1/HUD/MainMenu.PackageMetaData'
+[2015.06.09-21.31.49:766][216]LogMetaData: Removing '/Game/HUD/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/1/HUD/MainMenu.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD_C' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:EventGraph.K2Node_Event_963' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:EventGraph.K2Node_Event_964' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:GetText_0.K2Node_FunctionResult_0' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:GetText_0.K2Node_FunctionEntry_675' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:EconomyFunc.K2Node_FunctionEntry_755' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:GetText_1.K2Node_FunctionResult_1' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:GetText_1.K2Node_FunctionEntry_2926' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:GetText_2.K2Node_FunctionResult_2' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:GetText_2.K2Node_FunctionEntry_3558' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:GetText_3.K2Node_FunctionResult_3' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.CommanderHUD:GetText_3.K2Node_FunctionEntry_3603' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:071][216]LogMetaData: Removing '/Game/HUD/CommanderHUD.SKEL_CommanderHUD_C' ref from Metadata '/Game/1/HUD/CommanderHUD.PackageMetaData'
+[2015.06.09-21.31.50:410][216]LogMetaData: Removing '/Game/HUD/RTSInterface.RTSInterface_C' ref from Metadata '/Game/1/HUD/RTSInterface.PackageMetaData'
+[2015.06.09-21.31.50:410][216]LogMetaData: Removing '/Game/HUD/RTSInterface.RTSInterface:Build This Building.K2Node_FunctionEntry_2400' ref from Metadata '/Game/1/HUD/RTSInterface.PackageMetaData'
+[2015.06.09-21.31.50:410][216]LogMetaData: Removing '/Game/HUD/RTSInterface.RTSInterface:Am Your Commander.K2Node_FunctionEntry_3177' ref from Metadata '/Game/1/HUD/RTSInterface.PackageMetaData'
+[2015.06.09-21.31.50:410][216]LogMetaData: Removing '/Game/HUD/RTSInterface.SKEL_RTSInterface_C' ref from Metadata '/Game/1/HUD/RTSInterface.PackageMetaData'
+[2015.06.09-21.31.50:491][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/MainMenu.uasset" SILENT=true
+[2015.06.09-21.31.50:544][216]LogSavePackage: Save=51.747520ms
+[2015.06.09-21.31.50:544][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenu7EE9588145310DFA0A7C3CB285F54EA4.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/MainMenu.uasset'
+[2015.06.09-21.31.50:553][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.50:644][216]LogSavePackage: Save=89.579796ms
+[2015.06.09-21.31.50:644][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUDFA75631444A0C322BBB1AE89FCF27407.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.50:655][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/RTSInterface" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/RTSInterface.uasset" SILENT=true
+[2015.06.09-21.31.50:666][216]LogSavePackage: Save=7.088032ms
+[2015.06.09-21.31.50:666][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSInterface686A1C634E36B16E1A5C53BF7F3C6AF5.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/RTSInterface.uasset'
+[2015.06.09-21.31.51:058][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RTSCam" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset" SILENT=true
+[2015.06.09-21.31.51:308][216]LogSavePackage: Save=247.293411ms
+[2015.06.09-21.31.51:308][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSCam75B3ADA0429F790E8977FC991FAA2617.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset'
+[2015.06.09-21.31.51:317][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RTSCam" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset" SILENT=true
+[2015.06.09-21.31.51:559][216]LogSavePackage: Save=239.020004ms
+[2015.06.09-21.31.51:559][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSCam319954D0467613D00EB3FDB74F008C47.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset'
+[2015.06.09-21.31.51:568][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RTSCam" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset" SILENT=true
+[2015.06.09-21.31.51:816][216]LogSavePackage: Save=246.005692ms
+[2015.06.09-21.31.51:816][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSCam0B589A334F9AF365F22C18B1F14DD115.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Blueprints/RTSCam.uasset'
+[2015.06.09-21.31.51:824][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/ActualHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualHouse.uasset" SILENT=true
+[2015.06.09-21.31.51:846][216]LogSavePackage: Save=19.149179ms
+[2015.06.09-21.31.51:846][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualHouse2000C095442C83A1706D0B9A5AE797C6.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/ActualHouse.uasset'
+[2015.06.09-21.31.51:856][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/Ghostbarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset" SILENT=true
+[2015.06.09-21.31.51:883][216]LogSavePackage: Save=24.830774ms
+[2015.06.09-21.31.51:883][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Ghostbarracks49D87FBC49CB254DB20628A3EBBD60DB.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/Ghostbarracks.uasset'
+[2015.06.09-21.31.51:892][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset" SILENT=true
+[2015.06.09-21.31.51:917][216]LogSavePackage: Save=23.403870ms
+[2015.06.09-21.31.51:917][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostBlacksmith790988BD46ADCCFB401ADF9DDACE7E8D.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostBlacksmith.uasset'
+[2015.06.09-21.31.51:926][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset" SILENT=true
+[2015.06.09-21.31.51:951][216]LogSavePackage: Save=23.132524ms
+[2015.06.09-21.31.51:951][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostHouseF0CA39DD41E617EE567D7E818E2BA634.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostHouse.uasset'
+[2015.06.09-21.31.51:960][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Buildings/GhostLumberYard" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset" SILENT=true
+[2015.06.09-21.31.51:986][216]LogSavePackage: Save=23.603285ms
+[2015.06.09-21.31.51:986][216]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostLumberYard600DCA5443F154B17972C0B717B7F29E.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Buildings/GhostLumberYard.uasset'
+[2015.06.09-21.31.54:651][486]LogMetaData: Removing '/Game/Buildings/GhostBlacksmith.GhostBlacksmith_C' ref from Metadata '/Game/1/Buildings/GhostBlacksmith.PackageMetaData'
+[2015.06.09-21.31.54:651][486]LogMetaData: Removing '/Game/Buildings/GhostBlacksmith.SKEL_GhostBlacksmith_C' ref from Metadata '/Game/1/Buildings/GhostBlacksmith.PackageMetaData'
+[2015.06.09-21.31.54:760][486]LogMetaData: Removing '/Game/Buildings/Ghostbarracks.Ghostbarracks_C' ref from Metadata '/Game/1/Buildings/Ghostbarracks.PackageMetaData'
+[2015.06.09-21.31.54:760][486]LogMetaData: Removing '/Game/Buildings/Ghostbarracks.SKEL_Ghostbarracks_C' ref from Metadata '/Game/1/Buildings/Ghostbarracks.PackageMetaData'
+[2015.06.09-21.31.54:859][486]LogMetaData: Removing '/Game/Buildings/ActualLumberYard.ActualLumberYard_C' ref from Metadata '/Game/1/Buildings/ActualLumberYard.PackageMetaData'
+[2015.06.09-21.31.54:860][486]LogMetaData: Removing '/Game/Buildings/ActualLumberYard.SKEL_ActualLumberYard_C' ref from Metadata '/Game/1/Buildings/ActualLumberYard.PackageMetaData'
+[2015.06.09-21.31.54:962][486]LogMetaData: Removing '/Game/Buildings/ActualHouse.ActualHouse_C' ref from Metadata '/Game/1/Buildings/ActualHouse.PackageMetaData'
+[2015.06.09-21.31.54:962][486]LogMetaData: Removing '/Game/Buildings/ActualHouse.SKEL_ActualHouse_C' ref from Metadata '/Game/1/Buildings/ActualHouse.PackageMetaData'
+[2015.06.09-21.31.55:062][486]LogMetaData: Removing '/Game/Buildings/ActualBlacksmith.ActualBlacksmith_C' ref from Metadata '/Game/1/Buildings/ActualBlacksmith.PackageMetaData'
+[2015.06.09-21.31.55:062][486]LogMetaData: Removing '/Game/Buildings/ActualBlacksmith.SKEL_ActualBlacksmith_C' ref from Metadata '/Game/1/Buildings/ActualBlacksmith.PackageMetaData'
+[2015.06.09-21.31.55:158][486]LogMetaData: Removing '/Game/Buildings/ActualBarracks.ActualBarracks_C' ref from Metadata '/Game/1/Buildings/ActualBarracks.PackageMetaData'
+[2015.06.09-21.31.55:158][486]LogMetaData: Removing '/Game/Buildings/ActualBarracks.SKEL_ActualBarracks_C' ref from Metadata '/Game/1/Buildings/ActualBarracks.PackageMetaData'
+[2015.06.09-21.31.55:264][486]LogMetaData: Removing '/Game/Buildings/GhostHouse.GhostHouse_C' ref from Metadata '/Game/1/Buildings/GhostHouse.PackageMetaData'
+[2015.06.09-21.31.55:264][486]LogMetaData: Removing '/Game/Buildings/GhostHouse.GhostHouse:UserConstructionScript.K2Node_FunctionEntry_2176' ref from Metadata '/Game/1/Buildings/GhostHouse.PackageMetaData'
+[2015.06.09-21.31.55:264][486]LogMetaData: Removing '/Game/Buildings/GhostHouse.GhostHouse:EventGraph.K2Node_Event_961' ref from Metadata '/Game/1/Buildings/GhostHouse.PackageMetaData'
+[2015.06.09-21.31.55:264][486]LogMetaData: Removing '/Game/Buildings/GhostHouse.SKEL_GhostHouse_C' ref from Metadata '/Game/1/Buildings/GhostHouse.PackageMetaData'
+[2015.06.09-21.31.55:372][486]LogMetaData: Removing '/Game/Buildings/GhostLumberYard.GhostLumberYard_C' ref from Metadata '/Game/1/Buildings/GhostLumberYard.PackageMetaData'
+[2015.06.09-21.31.55:372][486]LogMetaData: Removing '/Game/Buildings/GhostLumberYard.SKEL_GhostLumberYard_C' ref from Metadata '/Game/1/Buildings/GhostLumberYard.PackageMetaData'
+[2015.06.09-21.31.55:447][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buildings/GhostBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/GhostBlacksmith.uasset" SILENT=true
+[2015.06.09-21.31.55:483][486]LogSavePackage: Save=34.699516ms
+[2015.06.09-21.31.55:483][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostBlacksmith2E4D8982460C2646761954ABFE917CAA.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/GhostBlacksmith.uasset'
+[2015.06.09-21.31.55:505][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buildings/Ghostbarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/Ghostbarracks.uasset" SILENT=true
+[2015.06.09-21.31.55:542][486]LogSavePackage: Save=35.770279ms
+[2015.06.09-21.31.55:542][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Ghostbarracks3D41C68C4ABAFB484B4D338633121656.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/Ghostbarracks.uasset'
+[2015.06.09-21.31.55:565][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buildings/ActualLumberYard" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/ActualLumberYard.uasset" SILENT=true
+[2015.06.09-21.31.55:591][486]LogSavePackage: Save=23.904455ms
+[2015.06.09-21.31.55:591][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualLumberYard614097464831B9BAF2B5758DFFB90F41.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/ActualLumberYard.uasset'
+[2015.06.09-21.31.55:614][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buildings/ActualHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/ActualHouse.uasset" SILENT=true
+[2015.06.09-21.31.55:646][486]LogSavePackage: Save=30.885178ms
+[2015.06.09-21.31.55:646][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualHouse2B01E45A49B6803A1A1047A72AE04EDC.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/ActualHouse.uasset'
+[2015.06.09-21.31.55:669][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buildings/ActualBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/ActualBlacksmith.uasset" SILENT=true
+[2015.06.09-21.31.55:696][486]LogSavePackage: Save=24.776974ms
+[2015.06.09-21.31.55:696][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualBlacksmith16B3AF3C4F817BFA7EE90FB2DA6E0814.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/ActualBlacksmith.uasset'
+[2015.06.09-21.31.55:719][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buildings/ActualBarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/ActualBarracks.uasset" SILENT=true
+[2015.06.09-21.31.55:745][486]LogSavePackage: Save=23.009716ms
+[2015.06.09-21.31.55:745][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/ActualBarracks479ABAE34750F353FBB57398DECBAE31.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/ActualBarracks.uasset'
+[2015.06.09-21.31.55:768][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buildings/GhostHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/GhostHouse.uasset" SILENT=true
+[2015.06.09-21.31.55:804][486]LogSavePackage: Save=34.956242ms
+[2015.06.09-21.31.55:804][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostHouseF46931AE44CCFAA5D9407CA617828C5E.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/GhostHouse.uasset'
+[2015.06.09-21.31.55:827][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Buildings/GhostLumberYard" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/GhostLumberYard.uasset" SILENT=true
+[2015.06.09-21.31.55:865][486]LogSavePackage: Save=35.291916ms
+[2015.06.09-21.31.55:865][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/GhostLumberYard44F033DB425894E73F92F59990CD1489.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Buildings/GhostLumberYard.uasset'
+[2015.06.09-21.31.56:668][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.56:744][486]LogSavePackage: Save=71.227692ms
+[2015.06.09-21.31.56:744][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUD3DB014AD4EFBC2048EC0DCA81543A9B6.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.56:753][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.56:825][486]LogSavePackage: Save=69.851372ms
+[2015.06.09-21.31.56:825][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUD787212144D7D6BD84B1F948521D31707.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.56:834][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.56:909][486]LogSavePackage: Save=72.499039ms
+[2015.06.09-21.31.56:909][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUDCC08C0C441F44DFFA3586BB8C2FEBB5B.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.56:918][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.56:990][486]LogSavePackage: Save=69.969208ms
+[2015.06.09-21.31.56:990][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUD466BA2DE489A883D78966E9686EA740A.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.56:999][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.57:072][486]LogSavePackage: Save=70.704887ms
+[2015.06.09-21.31.57:072][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUDD5102BA24EA9DFEC897D0A8BD74A965E.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.57:081][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.57:153][486]LogSavePackage: Save=69.660728ms
+[2015.06.09-21.31.57:153][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUD9527204F431358C0B34337ADAB31E2CC.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.57:162][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.57:234][486]LogSavePackage: Save=68.911316ms
+[2015.06.09-21.31.57:234][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUDD9FF60A44A032EB5BBB299A84B13F1EA.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.57:242][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.31.57:313][486]LogSavePackage: Save=68.741722ms
+[2015.06.09-21.31.57:313][486]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUDF132CD52431F166F839182AA4F816DC5.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.31.59:855][727]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.RTSGameMode'
+[2015.06.09-21.31.59:856][727]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.Default__RTSGameMode_C'
+[2015.06.09-21.31.59:856][727]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.RTSGameMode_C'
+[2015.06.09-21.32.03:496][128]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.Default__RTSGameMode_C'
+[2015.06.09-21.32.03:496][128]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.RTSGameMode'
+[2015.06.09-21.32.03:496][128]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.RTSGameMode_C'
+[2015.06.09-21.32.06:503][432]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.Default__RTSGameMode_C'
+[2015.06.09-21.32.06:503][432]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.RTSGameMode'
+[2015.06.09-21.32.06:503][432]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.RTSGameMode_C'
+[2015.06.09-21.32.28:856][656]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.RTSGameMode'
+[2015.06.09-21.32.28:856][656]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.Default__RTSGameMode_C'
+[2015.06.09-21.32.28:857][656]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/1/Blueprints/RTSGameMode.RTSGameMode_C'
+[2015.06.09-21.32.35:479][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.32.35:530][397]LogSavePackage: Save=13.447408ms
+[2015.06.09-21.32.35:530][397]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenuAD42564647D1B31EACF612B7690A68CB.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap'
+[2015.06.09-21.32.40:138][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1/Blueprints/RTSGameMode" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Blueprints/RTSGameMode.uasset" SILENT=true
+[2015.06.09-21.32.40:144][744]LogSavePackage: Save=2.554978ms
+[2015.06.09-21.32.40:144][744]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/RTSGameModeA3CCC8D24CCF5FC3FFE8E49F5F19D33E.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/1/Blueprints/RTSGameMode.uasset'
+[2015.06.09-21.32.40:448][745]Cmd: QUIT_EDITOR
+[2015.06.09-21.32.40:687][745]LogExit: Preparing to exit.
+[2015.06.09-21.32.41:012][745]LogExit: Editor shut down
+[2015.06.09-21.32.41:013][745]LogExit: Transaction tracking system shut down
+[2015.06.09-21.32.41:014][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001145DF80
+[2015.06.09-21.32.41:015][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019F7F880
+[2015.06.09-21.32.41:016][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DEB6700
+[2015.06.09-21.32.41:019][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023166020
+[2015.06.09-21.32.41:186][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023166520
+[2015.06.09-21.32.41:186][745]LogExit: Object subsystem successfully closed.
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (189)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.06.09-21.32.41:279][745]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.06.09-21.32.41:280][745]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.06.09-21.32.41:280][745]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.06.09-21.32.41:280][745]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.06.09-21.32.41:280][745]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.06.09-21.32.41:280][745]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.06.09-21.32.41:280][745]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.06.09-21.32.41:280][745]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.06.09-21.32.41:280][745]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.06.09-21.32.41:814][745]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.06.09-21.32.41:815][745]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.06.09-21.32.41:815][745]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.06.09-21.32.41:903][745]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.06.09-21.32.41:904][745]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.06.09-21.32.41:904][745]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.06.09-21.32.41:904][745]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.06.09-21.32.41:905][745]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.06.09-21.32.41:971][745]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.06.09-21.32.41:971][745]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.06.09-21.32.41:971][745]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.06.09-21.32.41:971][745]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.06.09-21.32.41:971][745]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.06.09-21.32.41:971][745]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.06.09-21.32.41:971][745]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.06.09-21.32.41:979][745]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.06.09-21.32.41:980][745]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.06.09-21.32.41:981][745]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.09-21.32.41:981][745]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.09-21.32.41:981][745]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.06.09-21.32.42:084][745]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.06.09-21.32.42:084][745]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.06.09-21.32.42:088][745]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.06.09-21.32.42:088][745]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.06.09-21.32.42:089][745]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.06.09-21.32.42:091][745]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.06.09-21.32.42:173][745]LogDerivedDataCache: Shutdown
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.09-21.32.42:173][745]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.09-21.32.42:175][745]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.09-21.32.42:176][745]LogExit: Exiting.
+[2015.06.09-21.32.42:187][745]Log file closed, 06/09/15 17:32:42
