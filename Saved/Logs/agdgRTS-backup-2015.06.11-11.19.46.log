@@ -1,0 +1,410 @@
+﻿[2015.06.09-21.33.11:014][  0]Log file open, 06/09/15 17:33:11
+[2015.06.09-21.33.11:014][  0]LogInit:Display: Running engine for game: agdgRTS
+[2015.06.09-21.33.11:014][  0]LogInit:Display: RandInit(-1598198310) SRandInit(-1598198310).
+[2015.06.09-21.33.11:014][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.06.09-21.33.11:014][  0]LogStats: Stats thread started
+[2015.06.09-21.33.11:014][  0]LogInit: Version: 4.8.0-2564697+++depot+UE4-Releases+4.8
+[2015.06.09-21.33.11:014][  0]LogInit: API Version: 2564697
+[2015.06.09-21.33.11:014][  0]LogInit: Compiled (64-bit): May 26 2015 05:51:02
+[2015.06.09-21.33.11:014][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.06.09-21.33.11:014][  0]LogInit: Build Configuration: Development
+[2015.06.09-21.33.11:014][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.06.09-21.33.11:014][  0]LogInit: Command line: 
+[2015.06.09-21.33.11:014][  0]LogInit: Base directory: C:/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.06.09-21.33.11:026][  0]LogInit: Using libcurl 7.41.0
+[2015.06.09-21.33.11:026][  0]LogInit:  - built for x86_64-pc-win32
+[2015.06.09-21.33.11:026][  0]LogInit:  - supports SSL with WinSSL
+[2015.06.09-21.33.11:026][  0]LogInit:  - other features:
+[2015.06.09-21.33.11:026][  0]LogInit:      CURL_VERSION_SSL
+[2015.06.09-21.33.11:026][  0]LogInit:      CURL_VERSION_IPV6
+[2015.06.09-21.33.11:026][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.06.09-21.33.11:026][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.06.09-21.33.11:026][  0]LogInit:      CURL_VERSION_IDN
+[2015.06.09-21.33.11:027][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.06.09-21.33.11:027][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.06.09-21.33.11:027][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.06.09-21.33.11:027][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.06.09-21.33.11:027][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.06.09-21.33.11:038][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.09-21.33.11:050][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.09-21.33.11:057][  0]LogInit: Object subsystem initialized
+[2015.06.09-21.33.11:058][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.09-21.33.11:058][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.09-21.33.11:058][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.09-21.33.11:058][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.09-21.33.11:058][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.09-21.33.11:058][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.09-21.33.11:059][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.09-21.33.11:059][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.09-21.33.11:067][  0]LogInit: Computer: STARCHILD
+[2015.06.09-21.33.11:067][  0]LogInit: User: Pinworm
+[2015.06.09-21.33.11:067][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.09-21.33.11:067][  0]LogInit: High frequency timer resolution =3.419990 MHz
+[2015.06.09-21.33.11:067][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.06.09-21.33.11:067][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-21.33.11:067][  0]LogMemory: Process Physical Memory: 49.02 MB used, 49.02 MB peak
+[2015.06.09-21.33.11:067][  0]LogMemory: Process Virtual Memory: 23.39 MB used, 23.39 MB peak
+[2015.06.09-21.33.11:067][  0]LogMemory: Physical Memory: 3256.94 MB used, 8159.14 MB total
+[2015.06.09-21.33.11:067][  0]LogMemory: Virtual Memory: 283.48 MB used, 8388608.00 MB total
+[2015.06.09-21.33.11:102][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.09-21.33.11:306][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.06.09-21.33.11:734][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.06.09-21.33.11:734][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.06.09-21.33.11:734][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.09-21.33.11:737][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.09-21.33.11:744][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.09-21.33.12:094][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.06.09-21.33.12:841][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.06.09-21.33.12:854][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.06.09-21.33.12:867][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.06.09-21.33.12:879][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.06.09-21.33.12:893][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.06.09-21.33.12:906][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.06.09-21.33.12:917][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.06.09-21.33.12:928][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.06.09-21.33.12:940][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.06.09-21.33.12:951][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.06.09-21.33.12:962][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.06.09-21.33.12:975][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.06.09-21.33.13:017][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.06.09-21.33.13:027][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.06.09-21.33.13:038][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.06.09-21.33.13:051][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.06.09-21.33.13:051][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.09-21.33.13:233][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.09-21.33.13:276][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/Pinworm/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.09-21.33.13:276][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pinworm/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.06.09-21.33.13:276][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.09-21.33.13:276][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.09-21.33.13:276][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.06.09-21.33.13:276][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.06.09-21.33.13:423][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.09-21.33.13:434][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pinworm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.09-21.33.13:650][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.09-21.33.13:657][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.09-21.33.13:658][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.09-21.33.13:682][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.09-21.33.13:682][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.09-21.33.14:058][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.09-21.33.14:938][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.09-21.33.15:261][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.33.15:269][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.33.15:278][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.33.15:286][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.33.15:497][  0]LogObj: 26271 objects as part of root set at end of initial load.
+[2015.06.09-21.33.15:497][  0]LogUObjectAllocator: 5408960 out of 0 bytes used by permanent object pool.
+[2015.06.09-21.33.15:561][  0]LogEngine: Initializing Engine...
+[2015.06.09-21.33.15:563][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.06.09-21.33.15:571][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.06.09-21.33.15:714][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.09-21.33.15:720][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.09-21.33.15:729][  0]LogInit: FAudioDevice initialized.
+[2015.06.09-21.33.15:755][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Pinworm/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.09-21.33.15:760][  0]LogInit: Texture streaming: Disabled
+[2015.06.09-21.33.15:781][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.09-21.33.15:781][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.0-2564697+++depot+UE4-Releases+4.8
+[2015.06.09-21.33.15:781][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 31a4a93045bb1ac213dc6495cd637d59|14064862923c47cd8cee706e684909dd|ae643741-eb3e-4306-9ec4-7c058d9a96c6
+[2015.06.09-21.33.15:781][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.06.09-21.33.15:803][  0]LogInit: Transaction tracking system initialized
+[2015.06.09-21.33.15:912][  0]BlueprintLog: New page: Editor Load
+[2015.06.09-21.33.15:942][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.06.09-21.33.15:942][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.09-21.33.16:717][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.06.09-21.33.16:718][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.06.09-21.33.16:718][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.06.09-21.33.16:718][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2015.06.09-21.33.16:766][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.06.09-21.33.16:766][  0]LogConsoleResponse:Display: 
+[2015.06.09-21.33.16:852][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.09-21.33.17:011][  0]SourceControl: Info Source control is disabled
+[2015.06.09-21.33.17:011][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.09-21.33.17:011][  0]LightingResults: New page: Lighting Build
+[2015.06.09-21.33.17:022][  0]MapCheck: New page: Map Check
+[2015.06.09-21.33.17:022][  0]LightingResults: New page: Lighting Build
+[2015.06.09-21.33.17:029][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C1BEF20
+[2015.06.09-21.33.17:412][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.06.09-21.33.17:417][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.09-21.33.17:422][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.06.09-21.33.17:453][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.463ms to complete.
+[2015.06.09-21.33.17:453][  0]LogFileHelpers: Loading map 'Template_Default' took 0.442
+[2015.06.09-21.33.17:569][  0]LogCollectionManager: Loaded 0 collections in 0.002489 seconds
+[2015.06.09-21.33.17:576][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1792 classes and 301 folders.
+[2015.06.09-21.33.17:615][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.06.09-21.33.17:639][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.06.09-21.33.17:652][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.06.09-21.33.17:701][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.09-21.33.17:705][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.09-21.33.17:726][  0]LogLoad: Full Startup: 8.34 seconds (BP compile: 0.12 seconds)
+[2015.06.09-21.33.17:783][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.09-21.33.17:804][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.06.09-21.33.17:982][  0]LogRenderer: Reallocating scene render targets to support 1016x584 (Frame:2).
+[2015.06.09-21.33.18:190][  5]LogAssetRegistry: Asset discovery search completed in 2.2579 seconds
+[2015.06.09-21.33.44:259][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Houses1" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset" SILENT=true
+[2015.06.09-21.33.44:277][945]LogSavePackage: Save=15.340688ms
+[2015.06.09-21.33.44:277][945]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/M_Houses1F3999EA34469C0C5EA64328E717FB2E9.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset'
+[2015.06.09-21.33.44:466][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/MeshActualBarracks" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualBarracks.uasset" SILENT=true
+[2015.06.09-21.33.44:485][945]LogSavePackage: Save=13.834836ms
+[2015.06.09-21.33.44:485][945]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MeshActualBarracks9B945850492BB15237FAF9957BFCE9D6.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualBarracks.uasset'
+[2015.06.09-21.33.44:506][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/MeshActualHouse" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualHouse.uasset" SILENT=true
+[2015.06.09-21.33.44:524][945]LogSavePackage: Save=12.581908ms
+[2015.06.09-21.33.44:524][945]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MeshActualHouseA239CEF645E02718D4BFAB83A71CA643.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualHouse.uasset'
+[2015.06.09-21.33.44:547][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/MeshActualLY" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualLY.uasset" SILENT=true
+[2015.06.09-21.33.44:565][945]LogSavePackage: Save=12.386293ms
+[2015.06.09-21.33.44:565][945]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MeshActualLY5111216A41EA5E7FBC019596E427582A.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshActualLY.uasset'
+[2015.06.09-21.33.44:586][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/MeshBlacksmith" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshBlacksmith.uasset" SILENT=true
+[2015.06.09-21.33.44:604][945]LogSavePackage: Save=13.206764ms
+[2015.06.09-21.33.44:604][945]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MeshBlacksmith4FC8CFE6440A1EF21D392F88AF762CBE.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Meshs/MeshBlacksmith.uasset'
+[2015.06.09-21.33.54:778][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Textures/Houses1" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/Textures/Houses1.uasset" SILENT=true
+[2015.06.09-21.33.55:068][ 58]LogSavePackage: Save=288.190887ms
+[2015.06.09-21.33.55:068][ 58]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Houses10F9C2A8D49BC4C4C182BC7997B24113A.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/Textures/Houses1.uasset'
+[2015.06.09-21.33.55:087][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Textures/Houses1_glow" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/Textures/Houses1_glow.uasset" SILENT=true
+[2015.06.09-21.33.55:094][ 58]LogSavePackage: Save=5.574286ms
+[2015.06.09-21.33.55:094][ 58]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Houses1_glowC55DFEFD4139A383A42F83B3DB988F05.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/Textures/Houses1_glow.uasset'
+[2015.06.09-21.33.55:108][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Textures/Houses1_nmp" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/Textures/Houses1_nmp.uasset" SILENT=true
+[2015.06.09-21.33.55:332][ 58]LogSavePackage: Save=221.749771ms
+[2015.06.09-21.33.55:333][ 58]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Houses1_nmp1DADF5024F83DE7B6647F98E0D8AE837.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/Textures/Houses1_nmp.uasset'
+[2015.06.09-21.33.55:358][ 58]LogSavePackage: Save=10.664066ms
+[2015.06.09-21.33.55:358][ 58]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/Houses1Metalness1BE9062E4F7516A9F418C5876874DCD8.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/Textures/Houses1Metalness.uasset'
+[2015.06.09-21.33.55:600][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Houses1" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset" SILENT=true
+[2015.06.09-21.33.55:611][ 58]LogSavePackage: Save=5.075161ms
+[2015.06.09-21.33.55:611][ 58]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/M_Houses127713D0C43DF3C5D92244198300E2C05.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset'
+[2015.06.09-21.33.55:617][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Houses1" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset" SILENT=true
+[2015.06.09-21.33.55:624][ 58]LogSavePackage: Save=4.362586ms
+[2015.06.09-21.33.55:624][ 58]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/M_Houses14A8744BD4475EB23F56D078B06FED51B.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset'
+[2015.06.09-21.33.55:630][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Houses1" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset" SILENT=true
+[2015.06.09-21.33.55:637][ 58]LogSavePackage: Save=4.316387ms
+[2015.06.09-21.33.55:637][ 58]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/M_Houses1E73CE1FC43C2FFC3DD072A95B7A81075.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset'
+[2015.06.09-21.33.55:643][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Houses1" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset" SILENT=true
+[2015.06.09-21.33.55:650][ 58]LogSavePackage: Save=4.661417ms
+[2015.06.09-21.33.55:650][ 58]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/M_Houses1E4C5232A4ECF126E26052AB63546FEF4.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Materials/M_Houses1.uasset'
+[2015.06.09-21.34.14:733][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.34.14:768][454]LogSavePackage: Save=18.131924ms
+[2015.06.09-21.34.14:768][454]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenuF77FB9F74D8EDBC3D2F5CC95C2EF5848.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/MainMenu.umap'
+[2015.06.09-21.34.14:795][454]LogFileHelpers: Saving map 'MainMenu' took 0.180
+[2015.06.09-21.34.30:983][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.34.31:017][267]LogSavePackage: Save=19.852104ms
+[2015.06.09-21.34.31:017][267]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenu471CC217492E5DF6CDE5808A6A2EB65A.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Maps/MainMenu.umap'
+[2015.06.09-21.34.31:043][267]LogFileHelpers: Saving map 'MainMenu' took 0.094
+[2015.06.09-21.35.04:736][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.35.04:772][ 56]LogSavePackage: Save=16.799757ms
+[2015.06.09-21.35.04:772][ 56]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenuDE152A3F4F0F378866A2EB9C47694BDD.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Maps/MainMenu.umap'
+[2015.06.09-21.35.16:222][248]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.35.16:307][248]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.09-21.35.29:097][342]BlueprintLog: New page: Compile CommanderHUD
+[2015.06.09-21.35.29:227][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C73B6A0
+[2015.06.09-21.35.29:227][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C739A80
+[2015.06.09-21.35.29:386][342]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.06.09-21.35.29:386][342]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.06.09-21.35.29:386][342]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.06.09-21.35.29:386][342]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.06.09-21.35.29:386][342]BlueprintEditorCompileResults: Info [0140.00] Compile of CommanderHUD successful! [in 288 ms]
+[2015.06.09-21.35.30:035][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/CommanderHUD" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset" SILENT=true
+[2015.06.09-21.35.30:111][410]LogSavePackage: Save=70.784706ms
+[2015.06.09-21.35.30:111][410]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/CommanderHUD10D24F2B4D89F3404E7892B111962FF5.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/HUD/CommanderHUD.uasset'
+[2015.06.09-21.36.22:241][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.09-21.36.22:258][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D9B0A40
+[2015.06.09-21.36.22:259][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D9B1800
+[2015.06.09-21.36.22:286][537]LogSavePackage: Save=16.639231ms
+[2015.06.09-21.36.22:286][537]LogSavePackage: Moving '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Saved/MainMenuA41FDDA649434FA8B48759A3C9F6BED0.tmp' to '../../../../../Users/Pinworm/Documents/Unreal Projects/agdgRTS/Content/Maps/MainMenu.umap'
+[2015.06.09-21.36.31:807][215]Cmd: QUIT_EDITOR
+[2015.06.09-21.36.32:027][215]LogExit: Preparing to exit.
+[2015.06.09-21.36.33:049][215]LogExit: Editor shut down
+[2015.06.09-21.36.33:049][215]LogExit: Transaction tracking system shut down
+[2015.06.09-21.36.33:050][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FB2B880
+[2015.06.09-21.36.33:050][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D48B9C0
+[2015.06.09-21.36.33:050][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000108EEA20
+[2015.06.09-21.36.33:050][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C93A8E0
+[2015.06.09-21.36.33:050][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019802B60
+[2015.06.09-21.36.33:191][215]LogExit: Object subsystem successfully closed.
+[2015.06.09-21.36.33:245][215]LogModuleManager: Shutting down and abandoning module SequencerWidgets (189)
+[2015.06.09-21.36.33:245][215]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.06.09-21.36.33:245][215]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.06.09-21.36.33:245][215]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.06.09-21.36.33:245][215]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.06.09-21.36.33:245][215]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.06.09-21.36.33:246][215]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.06.09-21.36.33:247][215]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.06.09-21.36.33:247][215]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.06.09-21.36.33:247][215]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.06.09-21.36.33:247][215]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.06.09-21.36.33:651][215]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.06.09-21.36.33:652][215]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.06.09-21.36.33:758][215]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.06.09-21.36.33:787][215]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.06.09-21.36.33:787][215]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.06.09-21.36.33:787][215]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.06.09-21.36.33:787][215]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.06.09-21.36.33:787][215]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.06.09-21.36.33:787][215]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.06.09-21.36.33:787][215]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.06.09-21.36.33:794][215]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.06.09-21.36.33:795][215]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.09-21.36.33:795][215]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.09-21.36.33:795][215]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.06.09-21.36.33:895][215]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.06.09-21.36.33:895][215]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.06.09-21.36.33:897][215]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.06.09-21.36.33:897][215]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.06.09-21.36.33:898][215]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.06.09-21.36.33:900][215]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.06.09-21.36.33:972][215]LogDerivedDataCache: Shutdown
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.09-21.36.33:972][215]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.09-21.36.33:974][215]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.09-21.36.33:974][215]LogExit: Exiting.
+[2015.06.09-21.36.33:986][215]Log file closed, 06/09/15 17:36:33

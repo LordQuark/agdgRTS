@@ -1,0 +1,44 @@
+﻿[2015.06.11-09.19.46:949][  0]Log file open, 06/11/15 11:19:46
+[2015.06.11-09.19.46:949][  0]LogInit:Display: Running engine for game: agdgRTS
+[2015.06.11-09.19.46:949][  0]LogInit:Display: RandInit(-225273064) SRandInit(-225273064).
+[2015.06.11-09.19.46:949][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.06.11-09.19.46:949][  0]LogStats: Stats thread started
+[2015.06.11-09.19.46:949][  0]LogInit: Version: 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.11-09.19.46:949][  0]LogInit: API Version: 2579680
+[2015.06.11-09.19.46:949][  0]LogInit: Compiled (64-bit): Jun  8 2015 03:34:53
+[2015.06.11-09.19.46:949][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.06.11-09.19.46:949][  0]LogInit: Build Configuration: Development
+[2015.06.11-09.19.46:949][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.06.11-09.19.46:949][  0]LogInit: Command line:  
+[2015.06.11-09.19.46:949][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.06.11-09.19.46:950][  0]LogInit: Rocket: 1
+[2015.06.11-09.19.46:995][  0]LogInit: Using libcurl 7.41.0
+[2015.06.11-09.19.46:995][  0]LogInit:  - built for x86_64-pc-win32
+[2015.06.11-09.19.46:995][  0]LogInit:  - supports SSL with WinSSL
+[2015.06.11-09.19.46:995][  0]LogInit:  - other features:
+[2015.06.11-09.19.46:995][  0]LogInit:      CURL_VERSION_SSL
+[2015.06.11-09.19.46:995][  0]LogInit:      CURL_VERSION_IPV6
+[2015.06.11-09.19.46:995][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.06.11-09.19.46:995][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.06.11-09.19.46:995][  0]LogInit:      CURL_VERSION_IDN
+[2015.06.11-09.19.46:996][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.06.11-09.19.46:996][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.06.11-09.19.46:996][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.06.11-09.19.46:996][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.06.11-09.19.46:996][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.06.11-09.19.47:060][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.11-09.19.47:255][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.11-09.19.47:616][  0]LogInit: Object subsystem initialized
+[2015.06.11-09.19.47:837][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.11-09.19.47:837][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Unreal Projects/agdgRTS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.11-09.19.47:837][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.11-09.19.47:837][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Unreal Projects/agdgRTS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.11-09.19.47:837][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.11-09.19.47:837][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Unreal Projects/agdgRTS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.11-09.19.48:301][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.11-09.19.48:350][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.11-09.19.48:660][  0]LogInit: Computer: ADMIN-PC
+[2015.06.11-09.19.48:660][  0]LogInit: User: Admin
+[2015.06.11-09.19.48:660][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.11-09.19.48:660][  0]LogInit: High frequency timer resolution =3.312822 MHz
+[2015.06.11-09.19.48:669][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
